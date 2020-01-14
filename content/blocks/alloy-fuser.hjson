@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Alloy Fuser
+description: Fuses Copper and Lead by cooking Coal to produce Dense Alloy
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+    items: {
+        items: [
+            copper/1
+            lead/1
+            coal/1
+        ]
+    }
+}
+requirements: [
+    lead/50
+    copper/50
+]
+category: crafting
+research: graphite-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: dense-alloy/1
