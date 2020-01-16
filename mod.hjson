@@ -1,0 +1,6 @@
+name: "dafdp"
+displayName: "DAfDP (Dense Alloy for Dense Players)"
+author: "Arkanic"
+description: "[red]dense."
+version: "99999999999999999"
+minGameVersion: "101"
